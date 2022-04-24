@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+body {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  font-family:'montseratt' , sans-serif ;
+}
+.card {
+  width: 300px;
+  margin: 20px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.result {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Fish {
+  margin: 20px;
+  border-radius: 20px;
+}
+.Chicken {
+  margin: 20px;
+  border-radius: 20px;
+}
+.Meat {
+  margin: 20px;
+  border-radius: 20px;
+}
+.Vegtrian {
+  margin: 20px;
+  border-radius: 20px;
+}
+.Fruit {
+  margin: 20px;
+  border-radius: 20px;
+}
+.Ice_cream {
+  margin: 20px;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+button {
+  appearance: none;
+  background: none;
+  border-left: none;
+  border-top: none;
+  margin: 10px;
+cursor: pointer;
+
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+.form-search-input{
+    appearance: none;
+    background: none;
+    border-left: none;
+    border-top: none; 
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.form-search-button{
+    appearance: none;
+    background: none;
+    border-left: none;
+    border-top: none; 
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.form-search{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shareicons{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
+
+  .zoomone:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoomtwo:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoomthree:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoomfour:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoomfive:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .zoomsix:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+.close_close{
+height: 5px;
+width: 5px;
+
+
+}
+.avatar{
+    border-radius: 50px;
+}
+
+.likenumber{
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -20px;
+  direction: rtl;
+  margin-right: 28px;
+ 
+}
+
